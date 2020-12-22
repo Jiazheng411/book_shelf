@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var mongoose = require('mongoose');
-var mongoDB = 'mongodb+srv://mockUser:mongodb@cluster0.fjfgi.mongodb.net/local_library?retryWrites=true&w=majority';
+var mongoDB = 'URL.to.mongo.db';
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
